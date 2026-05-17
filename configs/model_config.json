@@ -1,0 +1,12 @@
+{
+    "vocab_size": 32000,
+    "hidden_size": 2048,
+    "num_layers": 24,
+    "num_heads": 16,
+    "num_kv_heads": 4,
+    "intermediate_size": 5632,
+    "max_position_embeddings": 4096,
+    "initializer_range": 0.02,
+    "rms_norm_eps": 1e-6,
+    "model_type": "ethical_guard"
+}
