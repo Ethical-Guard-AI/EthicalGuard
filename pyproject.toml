@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ethical-guard"
+version = "1.0.1"
+description = "A high-performance independent alignment guardrail engine for LLMs."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Praveen Ram Ramasubramani" },
+    { name = "Prasath Ram Ramasubramani" },
+    { name = "Lingesh P" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "httpx>=0.24.0",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ethical_guard*"]
+exclude = [
+    "tests*", 
+    "docs*", 
+    "site*", 
+    ".venv*", 
+    "adversarial*", 
+    "benchmark*"
+]
