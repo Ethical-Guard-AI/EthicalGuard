@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ethical-guard"
-version = "1.0.1"
+version = "2.0.0"
 description = "A high-performance independent alignment guardrail engine for LLMs."
 readme = "README.md"
 requires-python = ">=3.10"
