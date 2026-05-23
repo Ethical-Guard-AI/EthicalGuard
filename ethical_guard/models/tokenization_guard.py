@@ -1,3 +1,5 @@
+import os
+
 from transformers import PreTrainedTokenizerFast
 from tokenizers import Tokenizer, models, trainers, pre_tokenizers
 
